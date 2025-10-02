@@ -1,72 +1,89 @@
 # Skin & Bones
+**A Feature Film Adaptation**
 
-A comprehensive screenplay adaptation project based on the novel "Skin & Bones: A Novel" by Renee Watson, featuring a multi-database knowledge graph system for story development and analysis.
+*Professional screenplay development system with global guidance frameworks*
 
-## Project Overview
+## Quick Start
 
-This project transforms the novel into a screenplay through systematic analysis and adaptation, utilizing Neo4j knowledge graphs to manage complex story relationships, character development, and narrative structure.
+```bash
+git clone https://github.com/mootoo4499/Skin_Bones.git
+cd Skin_Bones
+```
 
-### Story Analysis
-The novel centers on **Lena**, a Black museum director navigating body image, family relationships, and professional challenges in Portland. Key themes include:
-- **Identity & Body Image**: Lena's struggle with weight and self-acceptance
-- **Generational Relationships**: Complex mother-daughter dynamics with Honey
-- **Forgiveness & Betrayal**: Romantic and friendship conflicts requiring reconciliation
-- **Cultural Heritage**: The "Reclaiming Vanport" museum exhibit as metaphor for personal reclamation
+**Current Status**: Active development in `staging/` folder
 
-### Character Network
-- **Lena** (Protagonist): Museum director, mother, fiancée
-- **Honey** (Mother): Complex relationship around food, control, and care
-- **Aaliyah** (8-year-old daughter): Central to maternal crisis arc
-- **Malcolm** (Fiancé): Betrayal and reconciliation storyline
-- **Bryan** (Ex): Return during crisis, alternative romantic path
-- **Kendra** (Best friend): Professional betrayal and friendship repair
+## What This Is
+
+**Screenplay adaptation** of Renee Watson's novel into a feature film script using:
+- **Global guidance system** (`.global/`) for professional screenwriting
+- **Master/Staging workflow** for version control
+- **Neo4j knowledge graphs** for story analysis
+- **Fountain format** for industry-standard screenplays
 
 ## Project Structure
 
-### Core Files
-- `Beat_sheet_Outline.md` - Complete story structure breakdown
-- `SkinBones.fountain` - Screenplay in Fountain format
-- `treatment_guidelines.md` - Adaptation methodology
-- `format_guidelines.md` - Screenplay formatting standards
+```
+├── .global/           # Reusable screenwriting frameworks
+├── staging/           # Work-in-progress files (v0_)
+├── master/            # Approved versions (no version number)
+├── versions/          # Historical archive (v1, v2, v3...)
+├── research/          # Project research notes
+└── Scripts_Corpus/    # Reference screenplay database
+```
 
-### Knowledge Graph System
-Multi-database Neo4j architecture for comprehensive story management:
+## Current Files
 
-#### Database Design
-1. **`skinbones_book`** - Source material analysis
-2. **`skinbones_screenplay`** - Live adaptation work
-3. **`screenplay_expertise`** - Industry knowledge base
-4. **`screenplay_examples`** - Reference library from Scripts_Corpus
+**Active Development:**
+- `staging/Skin_Bones_Script_v0_*.fountain` - Current screenplay draft
+- `staging/Skin_Bones_Treat_v0_*.md` - Treatment document
 
-### Scripts_Corpus
-Extensive collection of screenplay character data for reference and analysis:
-- Character dialogue patterns from major films
-- Genre-specific writing techniques
-- Successful adaptation examples
+**Source Material:**
+- `Manuscript/` - Original novel (PDF + TXT)
 
-## Development Approach
+## Story Overview
 
-### Phase 1: Knowledge Graph Setup
-- Multi-database schema design
-- Source material digitization and relationship mapping
-- Expert knowledge integration
+**Lena**, a 16-year-old navigating body image struggles and family secrets, discovers her authentic voice through a journey of self-acceptance.
 
-### Phase 2: Adaptive Analysis
-- Character arc tracking across book-to-screen translation
-- Theme preservation and visual adaptation
-- Dialogue optimization for screen format
+**Key Characters:**
+- **LENA**: Protagonist (self-doubt → self-acceptance)
+- **HONEY**: Mother (past trauma, projecting fears)
+- **MALCOLM**: Supportive friend (sees her worth)
+- **GRANDMA**: Wise elder (family secrets)
 
-### Phase 3: Iterative Development
-- Version-controlled screenplay drafts
-- Feedback integration and revision tracking
-- Cross-reference with successful adaptation patterns
+## Workflow
 
-## Technical Stack
-- **Neo4j**: Multi-database knowledge graphs
-- **Fountain**: Screenplay markup format
-- **MCP (Model Context Protocol)**: Database connectivity
-- **Scripts_Corpus**: Reference character dialogue database
+1. **Edit** in `staging/` folder
+2. **Approve** changes
+3. **Sync** to `master/` (auto-generates PDFs)
+4. **Archive** previous versions
 
-## Getting Started
+## Global Guidance
 
-This project requires Neo4j credentials for full functionality. The knowledge graph system enables sophisticated story analysis, character relationship tracking, and adaptation decision documentation.
+The `.global/` folder contains:
+- **Expert screenwriting advice** (Sorkin, Save the Cat, McKee)
+- **Workflow automation** rules
+- **Fountain format** specifications
+- **PDF generation** tools
+
+## Technical Requirements
+
+- **Neo4j** (for knowledge graphs)
+- **Node.js** (for PDF generation)
+- **Fountain-compatible** editor
+
+## Development Status
+
+✅ **Completed:**
+- Global guidance system integration
+- Master/Staging workflow setup
+- TXT to Fountain converter tool
+- Neo4j database schemas
+
+🚧 **In Progress:**
+- Screenplay adaptation
+- Character arc development
+- Treatment refinement
+
+---
+
+*This system provides professional screenwriting guidance while maintaining focus on the Skin & Bones adaptation project.*
