@@ -1,0 +1,8 @@
+{
+  "scene_heading": "^(INT\\.|EXT\\.|INT\\./EXT\\.|I/E\\.)[^\\n]+( - (DAY|NIGHT|DAWN|DUSK|EVENING|MORNING|CONTINUOUS|MOMENTS LATER))?$",
+  "character": "^[A-Z0-9 .()'\\-]{2,30}$",
+  "parenthetical": "^\\([^\\n]{1,80}\\)$",
+  "transition": "^[A-Z ]+TO:$|^(FADE IN|FADE OUT|DISSOLVE TO|SMASH CUT TO):$",
+  "subheader": "^[A-Z][A-Z ]{1,29}$",
+  "shot": "^(CLOSE ON|WIDE SHOT|POV|ANGLE ON|INSERT|ON):"
+}

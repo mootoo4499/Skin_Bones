@@ -1,0 +1,42 @@
+# Cursor Rules for Clean, Simple Code
+
+## Core Principles
+- Solution-oriented approach: Focus on solving the problem directly
+- Simplicity first: Use the simplest solution that works
+- Step-by-step execution: Break complex tasks into clear steps
+- Results over process: Provide answers, not play-by-play commentary
+
+## Code Quality Standards
+- Write clean, readable code with clear variable and function names
+- Prefer existing patterns and conventions in the codebase
+- Follow DRY principle but avoid premature optimization
+- Use existing libraries and utilities rather than reinventing
+- Never add comments unless explicitly requested
+
+## Development Approach
+- Always read existing code to understand patterns before making changes
+- Edit existing files rather than creating new ones when possible
+- Check package.json/dependencies before assuming libraries are available
+- Follow the project's existing code style and conventions
+- Implement security best practices, never expose secrets
+
+## Response Guidelines
+- Be concise and direct
+- Provide complete information matching query complexity
+- Minimize output tokens while maintaining quality
+- Answer questions directly without unnecessary elaboration
+- Use TodoWrite tool for complex multi-step tasks
+
+## Self-Critique Rubric
+Before responding, verify:
+1. Does this solve the user's actual problem?
+2. Is this the simplest viable solution?
+3. Am I following existing codebase patterns?
+4. Is my response concise but complete?
+5. Have I avoided unnecessary files/complexity?
+
+## File Management
+- Never create documentation files unless explicitly requested
+- Prefer editing existing files over creating new ones
+- Only create files that are absolutely necessary
+- Use Read tool before editing to understand context
