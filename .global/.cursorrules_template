@@ -1,6 +1,6 @@
-# Skin & Bones - Cursor Rules
+# [PROJECT TITLE] - Cursor Rules
 
-*Screenplay adaptation project with comprehensive screenwriting guidance*
+*Template for screenplay projects - customize the project-specific sections*
 
 ---
 
@@ -60,23 +60,25 @@
 
 ## Project-Specific Context
 
+**CUSTOMIZE THIS SECTION FOR EACH PROJECT**
+
 ### Project Info
-- **Title**: Skin & Bones
-- **Subtitle**: A Feature Film Adaptation
-- **Writer**: Kevin Samy
-- **Genre**: Family Drama / Coming-of-Age
-- **Logline**: A young woman's journey of self-discovery as she navigates family secrets, body image struggles, and finding her authentic voice in a world that tries to define her
-- **Comps**: The Hate U Give, The Perks of Being a Wallflower, Little Fires Everywhere
+- **Title**: [Your Screenplay Title]
+- **Subtitle**: [If applicable]
+- **Writer**: [Your Name]
+- **Genre**: [Family Adventure / Drama / Thriller / etc.]
+- **Logline**: [One-sentence story description]
+- **Comps**: [Similar films for reference]
 
 ### Key Characters
-- **LENA**: 16-year-old protagonist struggling with body image and family expectations; arc from self-doubt to self-acceptance
-- **HONEY**: Lena's mother, dealing with her own past trauma and projecting her fears onto her daughter
-- **MALCOLM**: Lena's supportive friend who helps her see her true worth
-- **GRANDMA**: Wise elder figure who holds family secrets and provides perspective
+- **[PROTAGONIST NAME]**: [Brief description, arc, motivation]
+- **[SUPPORTING]**: [Description]
+- **[ANTAGONIST]**: [Description]
 
 ### Research Context
-@Manuscript/Skin & Bones_ A Novel - Renee Watson.txt
-@Manuscript/Skin & Bones_ A Novel - Renee Watson.pdf
+@research/character_notes.md
+@research/location_reference.md
+@research/historical_notes.md
 
 ---
 
@@ -174,4 +176,6 @@ When treatment is modified:
 
 ---
 
-*This configuration provides comprehensive screenwriting guidance while maintaining focus on the Skin & Bones adaptation project.*
+*This template provides the foundation. Customize the project-specific sections, then focus on writing great screenplays.*
+
+
